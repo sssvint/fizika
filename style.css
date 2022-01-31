@@ -1,0 +1,28 @@
+#title{
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 20%;
+    overflow: hidden;
+}
+#main{
+    border: 2px solid black;
+    border-top: 1px solid black;
+    overflow: hidden;
+}
+#ltop{
+    width: 20%;
+    height: 50%;
+    border: 2px solid blue;
+    float: left;
+}
+#mid{
+    width: 20%;
+    height: 200px;
+    border: 2px solid green;
+    float: left;
+    overflow-y:scroll;
+}
+table tr th:nth-child(1), table tr td:nth-child(1){
+    display:none;
+   }
