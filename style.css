@@ -10,6 +10,7 @@
     border-top: 1px solid black;
     overflow: hidden;
     height: 75%;
+    padding: 5%;
 }
 #ltop{
     width: 20%;
@@ -32,3 +33,7 @@ table tr th:nth-child(1), table tr td:nth-child(1){
     float: right;
     border: 2px solid salmon;
 }
+#mid{
+    align-content: center;
+}
+
