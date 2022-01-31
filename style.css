@@ -9,20 +9,26 @@
     border: 2px solid black;
     border-top: 1px solid black;
     overflow: hidden;
+    height: 75%;
 }
 #ltop{
     width: 20%;
-    height: 50%;
+    height: 300px;
     border: 2px solid blue;
     float: left;
 }
-#mid{
-    width: 20%;
-    height: 200px;
+#tabula{
+    width: 50%;
+    height: 300px;
     border: 2px solid green;
     float: left;
     overflow-y:scroll;
+    align-content: center;
 }
 table tr th:nth-child(1), table tr td:nth-child(1){
     display:none;
    }
+#right{
+    float: right;
+    border: 2px solid salmon;
+}
