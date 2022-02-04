@@ -1,39 +1,79 @@
-#title{
-    border: 2px solid black;
-    border-bottom: 1px solid black;
-    text-align: center;
-    height: 20%;
-    overflow: hidden;
-}
 #main{
-    border: 2px solid black;
-    border-top: 1px solid black;
+    border: 2px solid rgb(0, 174, 255);
     overflow: hidden;
-    height: 75%;
-    padding: 5%;
+    padding: 2%;
+    width: 1040px;
+    margin: auto;
+    background-color: rgb(255, 255, 134);
 }
 #ltop{
-    width: 20%;
-    height: 300px;
-    border: 2px solid blue;
-    float: left;
+    width: 1060px;
+    height: 90px;
+    border: 2px solid rgb(0, 174, 255);
+    margin: auto;
+    padding: 20px;
+    background-color: white;
 }
-#tabula{
-    width: 50%;
+#mid{
+    width: 200px;
     height: 300px;
-    border: 2px solid green;
-    float: left;
+    background-color: hotpink;
     overflow-y:scroll;
+    padding: 10px;
     align-content: center;
+    float: left;
 }
 table tr th:nth-child(1), table tr td:nth-child(1){
     display:none;
    }
-#right{
+#aptauja{
+    background-color: salmon;
+    width: 200px;
     float: right;
-    border: 2px solid salmon;
+    padding: 10px;
 }
-#mid{
-    align-content: center;
+#kopa{
+    width: 500px;
+    margin: auto;
 }
-
+h1, h3, p, a{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+h1{
+    position: relative;
+}
+html { 
+    background: url("izvbg.gif") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  a{
+    transition: all 0.5;
+    font-size: 27px;
+    color: #06c000;
+    }
+    
+a:hover{
+    color:mint;
+    text-shadow: 1px 1px 2px #109EBC;
+    }
+#bot{
+    border: 2px solid rgb(0, 174, 255);
+    width: 1080px;
+    height: 70px;
+    margin: auto;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+}
+button{
+    float:right;
+}

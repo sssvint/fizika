@@ -1,0 +1,66 @@
+th, td{
+    border: solid rgb(18, 2, 54) 2px;
+}
+#top{
+    width: 1060px;
+    height: 90px;
+    border: 2px solid rgb(255, 81, 0);
+    margin: auto;
+    padding: 20px;
+    background-color: indianred;
+}
+#main{
+    border: 2px solid rgb(221, 162, 36);
+    overflow: hidden;
+    padding: 2%;
+    width: 1040px;
+    margin: auto;
+    background-color: rgb(255, 255, 134);
+}
+#fizikalie{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 123, 105);
+    overflow-y:scroll;
+    padding: 10px;
+    align-content: center;
+}
+#astronomiskie{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(175, 241, 53);
+    overflow-y:scroll;
+    padding: 10px;
+    align-content: center;
+}
+#link{
+    border: 2px solid rgb(0, 140, 255);
+    width: 1080px;
+    height: 70px;
+    margin: auto;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+}
+html { 
+    background: url("topbg.gif") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  a{
+    transition: all 0.5;
+    color: #04ac74;
+    }
+    
+a:hover{
+    color:mint;
+    text-shadow: 1px 1px 2px #109EBC;
+    }
+h1, h3, p, a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+th, td{
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -10,38 +10,17 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <div id="top">
-        <div id="title">
-            <h1>Mehānikas formulas</h1>
-        </div>
-        <div id="main">
-            <div id="left">
-                <div id="ltop">
-                    <form>
-                        <p>Izvēlies tēmu:</p>
-                        <pre>
-<input type="checkbox" id="taisn" AutoPostBack="True" checked autocomplete="off"><label class="check">Taisnlīnijas kustība</label>
-
-<input type="checkbox" id="rink" AutoPostBack="True" checked autocomplete="off"><label class="check">Kustība pa riņķa līniju</label>
-
-<input type="checkbox" id="speki" AutoPostBack="True" checked autocomplete="off"><label class="check">Spēki un mijiedarbība</label>
-
-<input type="checkbox" id="darbs" AutoPostBack="True" checked autocomplete="off"><label class="check">Darbs un jauda</label>
-
-<input type="checkbox" id="energija" AutoPostBack="True" checked autocomplete="off"><label class="check">Enerģija</label>
-
-<input type="checkbox" id="svarst" AutoPostBack="True" checked autocomplete="off"><label class="check">Mehāniskās svārstības un viļņi</label>
-</pre>
-                    </form>
-                </div>
-                <div id="lbot">
-                    <img>
-                </div>
-            </div>
-            <div id="mid">
+    <div id="ltop">
+        <center>
+        <img src="bilde.jpg">
+        <h1>Mehānikas formulas</h1>
+        <img src="bilde.jpg">
+        </center>
+    </div>
+    <div id="main">
+        <div id="kopa">
+        <div id=mid>
             <input type="text" id="input" onkeyup="search()" placeholder="Ieraksti lielumu..." title="Ieraksti lielumu!">
-            </div>
-            <div id="tabula">
                 <table id="mehanikat">
                     <tr class="taisn">
                         <td>ātrums, ceļš, laiks</td>
@@ -172,13 +151,30 @@
                         }
                     }
                 </script>
-            </div>
-            <div id="right">
-                <img src="/bilde.jpg">
-            </div>
-            <div id="apaksa">
-                <a href="/divi.html">Konstantie lielumi</a>
-            </div>
         </div>
+        <div id="aptauja">
+            <form>
+                <h3>Ar ko saistās gravitācija? (atzīmē visus iespējamos)</h3>
+                <pre>
+<input type="checkbox" name="papildus"><label>ar ātrumu</label>
+<input type="checkbox" name="papildus"><label>ar spēku</label>
+<input type="checkbox" name="papildus"><label>ar masu</label>
+<input type="checkbox" name="papildus"><label>ar paātrinājumu</label>
+<input type="checkbox" name="papildus"><label>ar rādiusu</label>
+<input type="checkbox" name="papildus"><label>ar ceļu</label>
+                </pre>                            
+            </form>
+            <h3>Vai tev patīk fizika?</h3>
+            <select name="grav">
+                  <option value="ja">jā</option>
+                  <option value="ne">nē</option>
+                  <option value="nezinu">nezinu</option>
+            </select>
+            <button type="button">Labi!</button>
+        </div>
+        </div>
+    </div>
+    <div id="bot">
+        <a href=divi.html>Fizikas konstantes aprēķiniem!</a>
     </div>
 </body>
